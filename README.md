@@ -86,6 +86,7 @@ erDiagram
     
     POST ||--o| POST_METAS : metas
     POST }|--o{ POST_COMMENTS : post_comments
+    POST_COMMENTS }|--o{ POST_COMMENTS : post_replies
 	
 ```
 
